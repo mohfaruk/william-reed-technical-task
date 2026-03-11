@@ -1,4 +1,4 @@
-## Assumptins Made
+## Assumptions Made
 - Design Interpretation: I followed the Figma plan as closely as possible. Where specific colors, margins, or paddings were not specified,
   I made design choices to approximate the look and feel of the original Figma mockup.
 - Assets: I downloaded and used all assets provided in the Figma plan. For any missing assets, I made reasonable substitutions or placeholders.
