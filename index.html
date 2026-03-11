@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AgriFuture Digital Event Series</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <script src="/js/app.js" defer></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <!-- ANNOUNCEMENT-->
+        <div class="announcement-bar">
+            Powered by AgriTech &amp; FutureStream
+        </div>
+
+        <!-- NAVBAR -->
+        <header>
+            <nav class="navbar" id="navbar" aria-label="Main navigation">
+                <div class="navbar__inner">
+                    <!-- Logo -->
+                    <a href="#" class="navbar__logo" aria-label="AgriFuture home"> 
+                        <img src="./assets/Company Logo Nav.png" />
+                    </a>
+
+                    <!-- Desktop links/buttons -->
+                    <ul class="navbar__links" role="list">
+                        <li><a href="#agenda">Agenda</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#partners">Partners</a></li>
+                        <a href="#partner" class="btn btn-outline">Partner with us</a>
+                        <a href="#register" class="btn btn-green">Join now</a>
+                    </ul>
+
+                    <!-- Mobile hamburger -->
+                    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- HERO -->
+            <section class="hero" aria-labelledby="heroTitle">
+                <div class="hero__bg" role="img" aria-label="Wind turbines at golden sunset"></div>
+
+                <div class="hero__content">
+                    <div class="hero__left">
+                        <p class="hero__date">10, 17, 24 November 2024</p>
+                        <h1 class="hero__title" id="heroTitle">
+                            AgriFuture Digital<br>Event Series
+                        </h1>
+                    </div>
+
+                    <div class="hero__right">
+                        <p class="hero__tagline">
+                            Predict climate change with AI solutions for the future of food.
+                        </p>
+                        <a href="#register" class="btn btn-green btn-green-lg">Join now</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- OVERVIEW -->
+            <section class="overview" id="overview" aria-labelledby="overviewHeading">
+                <img class="overview__watermark" src="./assets/Company Logo Overview.png" alt="" />
+
+                <div class="overview__inner">
+                    <p class="overview__label" id="overviewHeading">Overview</p>
+                    <p class="overview__text">
+                        The AgriFuture Digital Event Series showcases how industry pioneers are using innovative
+                        technology, creative ingenuity, and ethical methods to ensure sustainable nourishment for
+                        communities worldwide.
+                    </p>
+                </div>
+            </section>
+
+            <!-- STATS -->
+            <section class="stats" aria-label="Event statistics">
+                <div class="stats__inner">
+                    <div class="stat">
+                        <span class="stat__number">3.1k</span>
+                        <span class="stat__label">Registrations</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">1147</span>
+                        <span class="stat__label">Attendees</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">96</span>
+                        <span class="stat__label">Tech questions</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">5.7k</span>
+                        <span class="stat__label">Total data downloads</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+         <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Mobile navigation">
+            <div class="mobile-menu-top">
+                <button class="mobile-menu__close" id="menuClose" aria-label="Close menu">&#x2715;</button>
+                 <a href="#" class="navbar__logo" aria-label="AgriFuture home"> 
+                    <img src="./assets/Company Logo Nav.png" />
+                </a>
+            </div>
+            <a href="#register" class="btn btn-green">Join now</a>
+            <a href="#partner" class="btn btn-outline">Partner with us</a>
+            <a href="#agenda" class="mobile-menu__links">
+                <span class="mobile-menu__title">
+                    Agenda
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                </span>
+                <span class="mobile-menu__subtext">View the full agenda for upcoming events.</span>
+            </a>
+            <a href="#speakers" class="mobile-menu__links">
+                <span class="mobile-menu__title">
+                    Speakers
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                </span>
+                <span class="mobile-menu__subtext">Speaker profiles, schedules, and session details</span>
+            </a>
+            <a href="#partners" class="mobile-menu__links">
+                <span class="mobile-menu__title">
+                    Partners
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                </span>
+                <span class="mobile-menu__subtext">Learn about our partners and explore partnership opportunities.</span>
+            </a>
+
+             <div class="mobile-menu__footer">
+                <img src="./assets/Company Logo Nav.png" />
+                <div class="mobile-menu__footer-text">
+                    <span class="mobile-menu__footer-title">Dining Digital Events</span>
+                    <span class="mobile-menu__footer-subtitle">Podcast Series</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-menu-overlay" id="menuOverlay"></div>
+    </body>
+</html>
